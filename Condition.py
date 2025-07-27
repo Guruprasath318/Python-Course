@@ -1,5 +1,4 @@
 #for loop
-
 list=["apple","banana","cherry","date","elderberry","fig","grape"]
 
 for fruits in list:
