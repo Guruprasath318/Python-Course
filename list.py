@@ -1,13 +1,31 @@
-# list methods
+lst=["apple", "banana", "cherry","date", "elderberry","fig"]
+print(lst)
+print(lst[1])  # Accessing the second element
+print(lst[2])  # Accessing the third element
+print(lst[0])  # Accessing the first element
+print(lst[-1])  # Accessing the last element
+print(lst[-2])  # Accessing the second to last element
+print(lst[-3])  # Accessing the third to last element
 
-playlist=["Shape of you","Naa Ready","OO Antava","Coolie","Master"]
-print(playlist.index("Naa Ready"))
-print(playlist.append("New Song"))
-print(playlist.insert(2, "New Song 2"))
-print(playlist.remove("OO Antava"))
-print(playlist.pop())
-print(playlist.clear())
-print(playlist.count("Shape of you"))
-print(playlist.reverse())
-print(playlist.sort())
-print(playlist.copy())
+#deleting list methods
+del lst[0]  # Deleting the first element
+print(lst)
+del lst[1]  # Deleting the second element
+print(lst)
+del lst[-1]  # Deleting the last element
+print(lst)
+
+#clear
+lst.clear()
+print(lst)
+
+#pop
+lst.pop(5)  # Removing the last element
+print(lst)
+lst.pop(0)  # Removing the first element
+print(lst)
+
+#append
+lst.append("grape")
+print(lst)
+
