@@ -6,7 +6,7 @@ streamlit.title("🧮 Simple Calculator")
 num1 = streamlit.number_input("Enter first number", 0)
 num2 = streamlit.number_input("Enter second number", 0)
 
-operation = streamlit.selectbox("Select operation", ["Add", "Subtract", "Multiply", "Divide"8])
+operation = streamlit.selectbox("Select operation", ["Add", "Subtract", "Multiply", "Divide"])
 
 if streamlit.button("Calculate"):
     if operation == "Add":
