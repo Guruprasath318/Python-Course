@@ -1,5 +1,5 @@
 """
-adding an whole integer 
+adding an whole integer
 Input = 245
 Output = 2+4+5 =11
 
@@ -12,3 +12,8 @@ while num != 0:
     sum = sum + digit
     num = int(num / 10)
 print("Sum of integer is : ",sum)
+
+
+
+
+
