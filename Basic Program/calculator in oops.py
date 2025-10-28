@@ -38,5 +38,7 @@ elif user_call == "exit":
     exit()
 elif user_call == "help":
     print("Available operations are: +, -, *, /")
+elif user_call == "continue":
+    print(call)
 else:
     print("Invalid operation.")
